@@ -1,0 +1,379 @@
+[
+  {
+    "id" : 1,
+    "name" : "İzmir",
+    "image" : "c_city"
+  },
+  {
+    "id" : 2,
+    "name" : "İstanbul",
+    "image" : "c_city"
+  },
+  {
+    "id" : 3,
+    "name" : "Ankara",
+    "image" : "c_city"
+  },
+  {
+    "id" : 4,
+    "name" : "Bursa",
+    "image" : "c_city"
+  },
+  {
+    "id" : 5,
+    "name" : "Muğla",
+    "image" : "c_city"
+  },
+  {
+    "id" : 6,
+    "name" : "Balıkesir",
+    "image" : "c_city"
+  },
+  {
+    "id" : 7,
+    "name" : "Antalya",
+    "image" : "c_city"
+  },
+  {
+    "id" : 8,
+    "name" : "New York",
+    "image" : "c_city"
+  },
+  {
+    "id" : 9,
+    "name" : "San Francisco",
+    "image" : "c_city"
+  },
+  {
+    "id" : 10,
+    "name" : "Boston",
+    "image" : "c_city"
+  },
+  {
+    "id" : 11,
+    "name" : "Los Angeles",
+    "image" : "c_city"
+  },
+  {
+    "id" : 12,
+    "name" : "Chicago",
+    "image" : "c_city"
+  },
+  {
+  "id" : 13,
+  "name" : "Boston",
+  "image" : "c_city"
+  },
+  {
+    "id" : 14,
+    "name" : "Detroit",
+    "image" : "rand_pggy"
+  },
+  {
+    "id" : 15,
+    "name" : "Washington,Dc",
+    "image" : "c_city"
+  },
+  {
+    "id" : 16,
+    "name" : "Dallas",
+    "image" : "c_city"
+  },
+  {
+    "id" : 17,
+    "name" : "Yaoundé",
+    "image" : "c_city"
+  },
+  {
+    "id" : 18,
+    "name" : "Douala",
+    "image" : "c_city"
+  },
+  {
+    "id" : 19,
+    "name" : "Bamenda",
+    "image" : "c_city"
+  },
+  {
+    "id" : 20,
+    "name" : "Garoua",
+    "image" : "c_city"
+  },
+  {
+    "id" : 21,
+    "name" : "Bafoussam",
+    "image" : "c_city"
+  },
+  {
+    "id" : 22,
+    "name" : "Buea",
+    "image" : "c_city"
+  },
+  {
+    "id" : 23,
+    "name" : "Montreal",
+    "image" : "rand_pggy"
+  },
+  {
+    "id" : 24,
+    "name" : "Calgary",
+    "image" : "c_city"
+  }
+,
+  {
+    "id" : 25,
+    "name" : "Edmonton",
+    "image" : "c_city"
+  },
+  {
+    "id" : 26,
+    "name" : "Saskatoon",
+    "image" : "c_city"
+  },
+  {
+    "id" : 27,
+    "name" : "Barrie",
+    "image" : "c_city"
+  },
+  {
+    "id" : 28,
+    "name" : "Kingston",
+    "image" : "c_city"
+  },
+  {
+    "id" : 29,
+    "name" : "Ottawa",
+    "image" : "c_city"
+  },
+  {
+    "id" : 30,
+    "name" : "Pekin",
+    "image" : "c_city"
+  },
+  {
+    "id" : 31,
+    "name" : "Shanghai",
+    "image" : "c_city"
+  },
+  {
+    "id" : 32,
+    "name" : "Tientsin",
+    "image" : "c_city"
+  },
+  {
+    "id" : 33,
+    "name" : "Wuhan",
+    "image" : "c_city"
+  },
+  {
+    "id" : 34,
+    "name" : "Hanghzou",
+    "image" : "c_city"
+  },
+  {
+    "id" : 35,
+    "name" : "Suzhou",
+    "image" : "c_city"
+  },
+  {
+    "id" : 36,
+    "name" : "Shenyang",
+    "image" : "c_city"
+  },
+  {
+    "id" : 37,
+    "name" : "Florence",
+    "image" : "c_city"
+  }
+,
+  {
+    "id" : 38,
+    "name" : "Roma",
+    "image" : "c_city"
+  },
+  {
+    "id" : 39,
+    "name" : "Milano",
+    "image" : "c_city"
+  },
+  {
+    "id" : 40,
+    "name" : "Genoa",
+    "image" : "c_city"
+  },
+  {
+    "id" : 41,
+    "name" : "Torino",
+    "image" : "c_city"
+  },
+  {
+    "id" : 42,
+    "name" : "Amalfi",
+    "image" : "c_city"
+  },
+  {
+    "id" : 43,
+    "name" : "Sienna",
+    "image" : "rand_pggy"
+  },
+  {
+    "id" : 44,
+    "name" : "Vatican",
+    "image" : "c_city"
+  },
+  {
+    "id" : 45,
+    "name" : "Tokyo",
+    "image" : "c_city"
+  },
+  {
+    "id" : 46,
+    "name" : "Kyoto",
+    "image" : "c_city"
+  },
+  {
+    "id" : 47,
+    "name" : "Fukuoka",
+    "image" : "c_city"
+  },
+  {
+    "id" : 48,
+    "name" : "Yokohama",
+    "image" : "c_city"
+  },
+  {
+    "id" : 49,
+    "name" : "Sendai",
+    "image" : "c_city"
+  },
+  {
+    "id" : 50,
+    "name" : "Nara",
+    "image" : "c_city"
+  },
+  {
+    "id" : 51,
+    "name" : "Nagasaki",
+    "image" : "c_city"
+  },
+  {
+    "id" : 52,
+    "name" : "Okayama",
+    "image" : "c_city"
+  },
+  {
+    "id" : 53,
+    "name" : "Moscow",
+    "image" : "c_city"
+  },
+  {
+    "id" : 54,
+    "name" : "Samara",
+    "image" : "c_city"
+  },
+  {
+    "id" : 55,
+    "name" : "Murmansk",
+    "image" : "c_city"
+  },
+  {
+    "id" : 56,
+    "name" : "Kaluga",
+    "image" : "c_city"
+  },
+  {
+    "id" : 57,
+    "name" : "Penza",
+    "image" : "c_city"
+  },
+  {
+    "id" : 58,
+    "name" : "Haborovsk",
+    "image" : "c_city"
+  },
+  {
+    "id" : 59,
+    "name" : "Kyarsnoyarsk",
+    "image" : "c_city"
+  },
+  {
+    "id" : 60,
+    "name" : "Madrid",
+    "image" : "c_city"
+  },
+  {
+    "id" : 61,
+    "name" : "Barcelona",
+    "image" : "c_city"
+  },
+  {
+    "id" : 62,
+    "name" : "Sevilla",
+    "image" : "c_city"
+  },
+  {
+    "id" : 63,
+    "name" : "Valencia",
+    "image" : "c_city"
+  },
+  {
+    "id" : 64,
+    "name" : "Granada",
+    "image" : "c_city"
+  },
+  {
+    "id" : 65,
+    "name" : "Bilbao",
+    "image" : "c_city"
+  },
+  {
+    "id" : 66,
+    "name" : "Zaragoza",
+    "image" : "c_city"
+  },
+  {
+    "id" : 67,
+    "name" : "Tarragona",
+    "image" : "c_city"
+  },
+  {
+    "id" : 68,
+    "name" : "Lviv",
+    "image" : "c_city"
+  },
+  {
+    "id" : 69,
+    "name" : "Odessa",
+    "image" : "c_city"
+  },
+  {
+    "id" : 70,
+    "name" : "Harkov",
+    "image" : "c_city"
+  },
+  {
+    "id" : 71,
+    "name" : "Dnipro",
+    "image" : "c_city"
+  },
+  {
+    "id" : 72,
+    "name" : "Mykolaiv",
+    "image" : "c_city"
+  },
+  {
+    "id" : 73,
+    "name" : "Herson",
+    "image" : "c_city"
+  },
+  {
+    "id" : 74,
+    "name" : "Donetsk",
+    "image" : "c_city"
+  },
+  {
+    "id" : 75,
+    "name" : "Kiev",
+    "image" : "c_city"
+  }
+]

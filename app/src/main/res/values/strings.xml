@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RecyclerView_Example</string>
+    <string name="country">Countries</string>
+    <string name="content_description_header_image">Country Header Image</string>
+    <string name="content_description_favorite_button">Country Favorite Button</string>
+    <string name="detail_title_format">Country: %1$s</string>
+    <string name="invalid_country">Invalid country</string>
+    <string name="title_all">All</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="content_description_country_image">Country Image</string>
+    <string name="content_description_city_image">City Image</string>
+
+
+</resources>

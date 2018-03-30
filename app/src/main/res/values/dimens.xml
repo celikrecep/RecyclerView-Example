@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_header_image_size">200dp</dimen>
+    <dimen name="detail_name_text_size">25sp</dimen>
+    <dimen name="detail_capital_text_size">20sp</dimen>
+    <dimen name="favorite_button_size">50dp</dimen>
+    <dimen name="padding_average">10dp</dimen>
+    <dimen name="padding_standard">15dp</dimen>
+    <dimen name="list_item_country_height">100dp</dimen>
+    <dimen name="list_item_city_height">100dp</dimen>
+    <dimen name="country_name_text_size">20sp</dimen>
+</resources>
