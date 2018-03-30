@@ -59,4 +59,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_favorite_border" />
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewCity"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/list_item_city_height"
+        android:layout_marginBottom="@dimen/padding_standard"
+        android:layout_marginTop="@dimen/padding_standard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtCapital" />
+
 </android.support.constraint.ConstraintLayout>

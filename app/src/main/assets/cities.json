@@ -67,11 +67,11 @@
   {
     "id" : 14,
     "name" : "Detroit",
-    "image" : "rand_pggy"
+    "image" : "c_city"
   },
   {
     "id" : 15,
-    "name" : "Washington,Dc",
+    "name" : "Washington",
     "image" : "c_city"
   },
   {
@@ -112,7 +112,7 @@
   {
     "id" : 23,
     "name" : "Montreal",
-    "image" : "rand_pggy"
+    "image" : "c_city"
   },
   {
     "id" : 24,
@@ -214,7 +214,7 @@
   {
     "id" : 43,
     "name" : "Sienna",
-    "image" : "rand_pggy"
+    "image" : "c_city"
   },
   {
     "id" : 44,

@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.widget.LinearLayoutManager
 import android.widget.Toast
 import com.loyer.recyclerview_example.R
 import com.loyer.recyclerview_example.model.Country
@@ -13,6 +14,7 @@ import kotlinx.android.synthetic.main.activity_country.*
 
 class CountryActivity : AppCompatActivity() {
 
+    private val adapter = CityAdapter(mutableListOf())
     private lateinit var country: Country
 
     companion object {
@@ -34,6 +36,7 @@ class CountryActivity : AppCompatActivity() {
         setupTitle()
         setupViews()
         setupFavoriteButton()
+        setupCities()
     }
 
     private fun setupCountry(){
@@ -81,5 +84,13 @@ class CountryActivity : AppCompatActivity() {
                 Favorites.addFavorite(country, this)
             }
         }
+    }
+
+    fun setupCities(){
+        recyclerViewCity.layoutManager = LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false)
+        recyclerViewCity.adapter = adapter
+
+        val cities = CountryStore.getCountryCities(country)
+        adapter.updateCities(cities)
     }
 }
