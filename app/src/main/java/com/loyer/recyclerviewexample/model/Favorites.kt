@@ -1,4 +1,4 @@
-package com.loyer.recyclerview_example.model
+package com.loyer.recyclerviewexample.model
 
 import android.content.Context
 import android.preference.PreferenceManager

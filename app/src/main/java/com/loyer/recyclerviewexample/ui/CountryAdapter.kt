@@ -1,11 +1,11 @@
-package com.loyer.recyclerview_example.ui
+package com.loyer.recyclerviewexample.ui
 
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
-import com.loyer.recyclerview_example.R
-import com.loyer.recyclerview_example.app.inflate
-import com.loyer.recyclerview_example.model.Country
+import com.loyer.recyclerviewexample.R
+import com.loyer.recyclerviewexample.app.inflate
+import com.loyer.recyclerviewexample.model.Country
 import kotlinx.android.synthetic.main.list_item_country.view.*
 
 /**
@@ -13,14 +13,15 @@ import kotlinx.android.synthetic.main.list_item_country.view.*
 */
 class CountryAdapter(private val countries : MutableList<Country>) : RecyclerView.Adapter<CountryAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-
         return ViewHolder(parent.inflate(R.layout.list_item_country))
+
     }
 
     override fun getItemCount(): Int = countries.size
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(countries[position])
+
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), View.OnClickListener{

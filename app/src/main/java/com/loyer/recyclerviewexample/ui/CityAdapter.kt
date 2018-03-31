@@ -1,11 +1,11 @@
-package com.loyer.recyclerview_example.ui
+package com.loyer.recyclerviewexample.ui
 
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
-import com.loyer.recyclerview_example.R
-import com.loyer.recyclerview_example.app.inflate
-import com.loyer.recyclerview_example.model.City
+import com.loyer.recyclerviewexample.R
+import com.loyer.recyclerviewexample.app.inflate
+import com.loyer.recyclerviewexample.model.City
 import kotlinx.android.synthetic.main.list_item_city.view.*
 
 /**
@@ -38,4 +38,5 @@ class CityAdapter(private val cities: MutableList<City>) : RecyclerView.Adapter<
             itemView.txtCityName.text = city.name
         }
     }
+
 }

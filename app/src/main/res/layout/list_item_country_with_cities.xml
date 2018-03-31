@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_country_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/imgFlag"
+        android:layout_width="@dimen/list_item_country_height"
+        android:layout_height="@dimen/list_item_country_height"
+        android:layout_marginStart="@dimen/padding_standard"
+        android:contentDescription="@string/content_description_country_image"
+        app:layout_constraintBottom_toTopOf="@id/txtCapital"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/f_turkey"/>
+
+    <TextView
+        android:id="@+id/txtCapital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_average"
+        android:layout_marginEnd="@dimen/padding_standard"
+        android:layout_marginStart="@dimen/padding_standard"
+        android:layout_marginTop="@dimen/padding_average"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgFlag"
+        app:layout_constraintEnd_toStartOf="@id/recyclerViewCity"
+        tools:text="Capital" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewCity"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/list_item_country_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imgFlag"/>
+</android.support.constraint.ConstraintLayout>

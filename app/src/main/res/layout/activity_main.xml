@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.loyer.recyclerview_example.ui.MainActivity">
+    tools:context="com.loyer.recyclerviewexample.ui.MainActivity">
 
 
-<com.loyer.recyclerview_example.ui.NoSwipePager
+<com.loyer.recyclerviewexample.ui.NoSwipePager
     android:id="@+id/viewPager"
     android:layout_width="0dp"
     android:layout_height="0dp"

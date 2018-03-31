@@ -1,4 +1,4 @@
-package com.loyer.recyclerview_example.ui
+package com.loyer.recyclerviewexample.ui
 
 
 import android.os.Bundle
@@ -8,8 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-import com.loyer.recyclerview_example.R
-import com.loyer.recyclerview_example.model.CountryStore
+import com.loyer.recyclerviewexample.R
+import com.loyer.recyclerviewexample.model.CountryStore
 import kotlinx.android.synthetic.main.fragment_favorites.*
 
 

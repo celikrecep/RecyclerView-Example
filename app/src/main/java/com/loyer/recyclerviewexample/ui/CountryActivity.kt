@@ -1,4 +1,4 @@
-package com.loyer.recyclerview_example.ui
+package com.loyer.recyclerviewexample.ui
 
 import android.content.Context
 import android.content.Intent
@@ -6,10 +6,10 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.widget.Toast
-import com.loyer.recyclerview_example.R
-import com.loyer.recyclerview_example.model.Country
-import com.loyer.recyclerview_example.model.CountryStore
-import com.loyer.recyclerview_example.model.Favorites
+import com.loyer.recyclerviewexample.R
+import com.loyer.recyclerviewexample.model.Country
+import com.loyer.recyclerviewexample.model.CountryStore
+import com.loyer.recyclerviewexample.model.Favorites
 import kotlinx.android.synthetic.main.activity_country.*
 
 class CountryActivity : AppCompatActivity() {

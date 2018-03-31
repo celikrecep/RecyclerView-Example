@@ -1,4 +1,4 @@
-package com.loyer.recyclerview_example
+package com.loyer.recyclerviewexample
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

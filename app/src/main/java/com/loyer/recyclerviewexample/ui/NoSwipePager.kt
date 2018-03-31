@@ -1,4 +1,4 @@
-package com.loyer.recyclerview_example.ui
+package com.loyer.recyclerviewexample.ui
 
 import android.content.Context
 import android.support.v4.view.ViewPager

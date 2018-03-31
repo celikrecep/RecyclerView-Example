@@ -1,4 +1,4 @@
-package com.loyer.recyclerview_example.app
+package com.loyer.recyclerviewexample.app
 
 import android.support.annotation.LayoutRes
 import android.view.LayoutInflater

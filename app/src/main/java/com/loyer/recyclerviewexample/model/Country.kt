@@ -1,4 +1,4 @@
-package com.loyer.recyclerview_example.model
+package com.loyer.recyclerviewexample.model
 
 /**
 * Created by loyer on 30.03.2018.
