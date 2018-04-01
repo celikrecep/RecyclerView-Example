@@ -3,7 +3,7 @@ package com.loyer.recyclerviewexample.ui
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.GridLayoutManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.fragment_all.*
 
 
 class AllFragment : Fragment() {
-    private val adapter = CountryWithCitiesAdapter(CountryStore.getCountries().toMutableList())
+    private val adapter = CountryCardAdapter(CountryStore.getCountries().toMutableList())
 
     companion object {
         fun newInstance(): AllFragment {
@@ -30,7 +30,7 @@ class AllFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        recyclerViewCountry.layoutManager = LinearLayoutManager(activity)
+        recyclerViewCountry.layoutManager = GridLayoutManager(activity,2,GridLayoutManager.VERTICAL,false)
         recyclerViewCountry.adapter = adapter
     }
 }
