@@ -1,4 +1,5 @@
 # RecyclerView-Example
+<a href="https://medium.com/@recep_clk10/kotlin-ile-recyclerview-i̇mplementasyonu-android-aea87c32a601">Medium link!</a> </br>
 gifs represent versions respectively. 
 
 
